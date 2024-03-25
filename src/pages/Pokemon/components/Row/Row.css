@@ -1,0 +1,13 @@
+.info-row {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.info-row .label {
+    color: #ffffff;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+.info-row .value {
+    color: #212121;
+    font-size: 16px;
+}

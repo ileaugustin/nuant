@@ -29,3 +29,15 @@ Feel free to take any liberties with the design, and to use any library or tool 
 
 - What part of building the project was the most difficult? Why?
 - If you had to filter the list of Pokemons by its  `type` how would you have implemented it?
+
+Fun fact:
+  - pokemon api was down when I was working on the app
+  - I treated the situation as a real life situation: "Backend is not ready"
+  - I worked with mocks, building the whole app using just the types found inside the api
+
+I would say that the hardest part of implementing the app was the unclear requirements
+  - in my opinion, too much is left for interpretation. Some people like this, some don't
+  - but in a production ready project requirements need to be clear
+  - I find the pokemon api to be too granular, to be able to complete the requirements in an quick way
+    - getPokemonByName does not support partial match - making search and filter useless
+    - listPokemons only returns name and url - making it hard to display an image of each pokemon

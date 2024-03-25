@@ -1,0 +1,27 @@
+.pokemon-page .pokemon-avatar {
+    width: 100px;
+    height: 100px;
+}
+.box {
+    border-radius: 4px;
+    width: 420px;
+    height: 210px;
+    box-sizing: border-box;
+}
+.box-title {
+    color: #212121;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.general-info {
+    background-color: #30a7d7;
+    display: grid;
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 70px 70px 70px;
+}
+.stats {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #a4a4a4;
+    height: auto;
+}
